@@ -1,0 +1,13 @@
+libjodconverter-java for Debian
+-------------------------------
+
+See http://www.artofsolving.com/opensource/jodconverter for the latest documentation.
+
+Before you can perform any conversions you need to start OpenOffice.org
+in listening mode on port 8100 as described in the JODConverter Guide.
+
+As a quick start you can type from a command line
+
+  soffice -headless -accept="socket,port=8100;urp;"
+
+ -- Samuel Thibault <sthibault@debian.org>  Tue, 01 Sep 2009 15:53:03 +0200

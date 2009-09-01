@@ -1,0 +1,5 @@
+jodconverter (2.2.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #544551)
+
+ -- Samuel Thibault <sthibault@debian.org>  Tue, 01 Sep 2009 15:53:03 +0200

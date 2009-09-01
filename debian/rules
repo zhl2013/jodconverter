@@ -1,0 +1,52 @@
+#!/usr/bin/make -f
+
+JAVAC=javac
+JAVADOC=javadoc
+JAR=jar
+
+JAVACLASSES=/usr/share/java
+SRCDIR=src/main/java
+
+JAVAFLAGS=-classpath $(JAVACLASSES)/openoffice/ridl.jar:$(JAVACLASSES)/openoffice/unoil.jar:$(JAVACLASSES)/openoffice/juh.jar:$(JAVACLASSES)/slf4j-api.jar:$(JAVACLASSES)/commons-io.jar:$(JAVACLASSES)/xstream.jar
+
+JARFILE=jodconverter-2.2.2.jar
+
+build: build-stamp
+build-stamp:
+	dh_testdir
+
+	( \
+	cd $(SRCDIR) ; \
+	$(JAVAC) $(JAVAFLAGS) `find . -name \*.java` ; \
+	$(JAVADOC) -d api com.artofsolving.jodconverter ; \
+	$(JAR) c `find . -name \*.class -o -name \*.xml -o -name \*.MF` > $(JARFILE) ; \
+	)
+
+	touch $@
+
+clean:
+	dh_testdir
+	dh_testroot
+
+	rm -f `find $(SRCDIR) -name \*.class`
+	rm -f $(SRCDIR)/$(JARFILE)
+	rm -fr $(SRCDIR)/api
+
+	dh_clean
+
+binary-indep: install
+	dh_testdir
+	dh_testroot
+	dh_installchangelogs ChangeLog.txt
+	dh_installdocs
+	dh_install
+	dh_link /usr/share/java/$(JARFILE) /usr/share/java/jodconverter.jar
+	dh_compress
+	dh_fixperms
+	dh_installdeb
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
+
+binary: binary-indep binary-arch
+.PHONY: build clean binary-indep binary-arch binary install
