@@ -10,7 +10,6 @@ Vcs-Browser: http://git.debian.org/?p=collab-maint/jodconverter/jodconverter.git
 Vcs-Git: git://git.debian.org/git/collab-maint/jodconverter/jodconverter.git
 
 Package: libjodconverter-java
-Section: java
 Architecture: all
 Depends: ${misc:Depends}, default-jre | java2-runtime, libcommons-cli-java, libcommons-io-java, ure, libslf4j-java, openoffice.org-java-common, libxstream-java, openoffice.org
 Description: Office formats converter - Library
