@@ -1,0 +1,11 @@
+Document: libjodconverter-java
+Title: Programmer API for Office formats converter
+Author: Mirko Nasato and Laurent Godard
+Abstract: JODConverter, the Java OpenDocument Converter, leverages
+ OpenOffice.org to provide import/export filters for various office formats
+ including OpenDocument and Microsoft Office. This is the javadoc documentation.
+Section: Programming/Java
+
+Format: HTML
+Index: /usr/share/doc/libjodconverter-java-doc/api/index.html
+Files: /usr/share/doc/libjodconverter-java-doc/api/*.html
