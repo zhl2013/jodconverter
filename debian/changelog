@@ -1,7 +1,7 @@
 jodconverter (2.2.2-4) unreleased; urgency=low
 
   * debian/control:
-    - Bump Standards-Version to 3.8.4 (no change needed).
+    - Bump Standards-Version to 3.9.0 (no change needed).
     - Make libjodconverter-java depend on headless java.
 
  -- Samuel Thibault <sthibault@debian.org>  Thu, 28 Jan 2010 00:02:20 +0100
