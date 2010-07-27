@@ -3,7 +3,7 @@ Priority: extra
 Maintainer: Samuel Thibault <sthibault@debian.org>
 Build-Depends: debhelper (>= 7)
 Build-Depends-Indep: default-jdk, libcommons-io-java, ure, libslf4j-java, openoffice.org-java-common, libxstream-java
-Standards-Version: 3.9.0
+Standards-Version: 3.9.1
 Section: java
 Homepage: http://www.artofsolving.com/opensource/jodconverter
 Vcs-Browser: http://git.debian.org/?p=collab-maint/jodconverter/jodconverter.git;a=summary
