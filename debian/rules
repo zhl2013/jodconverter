@@ -7,7 +7,7 @@ JAR=jar
 JAVACLASSES=/usr/share/java
 SRCDIR=src/main/java
 
-JAVAFLAGS=-classpath $(JAVACLASSES)/openoffice/ridl.jar:$(JAVACLASSES)/openoffice/unoil.jar:$(JAVACLASSES)/openoffice/juh.jar:$(JAVACLASSES)/slf4j-api.jar:$(JAVACLASSES)/commons-io.jar:$(JAVACLASSES)/xstream.jar
+JAVAFLAGS=-classpath $(JAVACLASSES)/ridl.jar:/usr/lib/libreoffice/basis3.3/program/classes/unoil.jar:$(JAVACLASSES)/juh.jar:$(JAVACLASSES)/slf4j-api.jar:$(JAVACLASSES)/commons-io.jar:$(JAVACLASSES)/xstream.jar
 
 JARFILE=jodconverter-2.2.2.jar
 
@@ -16,9 +16,9 @@ build-stamp:
 	dh_testdir
 
 	( \
-	cd $(SRCDIR) ; \
-	$(JAVAC) $(JAVAFLAGS) `find . -name \*.java` ; \
-	$(JAVADOC) -d api com.artofsolving.jodconverter ; \
+	cd $(SRCDIR) && \
+	$(JAVAC) $(JAVAFLAGS) `find . -name \*.java` && \
+	$(JAVADOC) -d api com.artofsolving.jodconverter && \
 	$(JAR) c `find . -name \*.class -o -name \*.xml -o -name \*.MF` > $(JARFILE) ; \
 	)
 
