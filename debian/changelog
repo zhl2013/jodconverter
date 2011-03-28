@@ -1,4 +1,4 @@
-jodconverter (2.2.2-5) UNRELEASED; urgency=low
+jodconverter (2.2.2-5) unstable; urgency=low
 
   * debian/patches/unix-lf.diff: New patch to export text without CRLF option
     (Closes: Bug#606715).
