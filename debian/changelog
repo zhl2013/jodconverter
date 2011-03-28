@@ -2,7 +2,8 @@ jodconverter (2.2.2-5) UNRELEASED; urgency=low
 
   * debian/patches/unix-lf.diff: New patch to export text without CRLF option
     (Closes: Bug#606715).
-  * debian/rules: fix ridl.jar, unoil.jar and juh.jar paths (Closes: Bug#618750).
+  * debian/rules: fix ridl.jar, unoil.jar and juh.jar paths
+    (Closes: Bug#618750).
   * debian/control: Depend on ure with moved ridl.jar and juh.jar, and
     libreoffice-java-common with moved unoil.jar
 
