@@ -67,11 +67,11 @@ public class DefaultDocumentFormatRegistry extends BasicDocumentFormatRegistry {
 		addDocumentFormat(wpd);
 
 		final DocumentFormat txt = new DocumentFormat("Plain Text", DocumentFamily.TEXT, "text/plain", "txt");
-        // default to "Text (encoded)" UTF8 to prevent OOo from trying to display the "ASCII Filter Options" dialog
+        // default to "Text (encoded)" UTF8,CRLF to prevent OOo from trying to display the "ASCII Filter Options" dialog
         txt.setImportOption("FilterName", "Text (encoded)");
         txt.setImportOption("FilterOptions", "UTF8,CRLF");
 		txt.setExportFilter(DocumentFamily.TEXT, "Text (encoded)");
-		txt.setExportOption(DocumentFamily.TEXT, "FilterOptions", "UTF8");
+		txt.setExportOption(DocumentFamily.TEXT, "FilterOptions", "UTF8,CRLF");
 		addDocumentFormat(txt);
 
 		final DocumentFormat wikitext = new DocumentFormat("MediaWiki wikitext", "text/x-wiki", "wiki");
