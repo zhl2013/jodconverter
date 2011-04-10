@@ -1,3 +1,9 @@
+jodconverter (2.2.2-6) UNRELEASED; urgency=low
+
+  * Bump Standards-Version to 3.9.2 (no change needed)
+
+ -- Samuel Thibault <sthibault@debian.org>  Sun, 10 Apr 2011 20:52:01 +0200
+
 jodconverter (2.2.2-5) unstable; urgency=low
 
   * debian/patches/unix-lf.diff: New patch to export text without CRLF option
