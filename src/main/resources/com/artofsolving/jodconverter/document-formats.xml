@@ -240,7 +240,7 @@
         <map>
           <entry>
             <string>FilterOptions</string>
-            <string>UTF8,CRLF</string>
+            <string>UTF8</string>
           </entry>
           <entry>
             <string>FilterName</string>

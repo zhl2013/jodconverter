@@ -1,3 +1,10 @@
+jodconverter (2.2.2-6) UNRELEASED; urgency=low
+
+  * debian/control: Make libjodconverter-java recommend
+    libjodconverter-java-doc.
+
+ -- Samuel Thibault <sthibault@debian.org>  Sun, 10 Apr 2011 15:23:57 +0200
+
 jodconverter (2.2.2-5) unstable; urgency=low
 
   * debian/patches/unix-lf.diff: New patch to export text without CRLF option
