@@ -2,8 +2,10 @@ jodconverter (2.2.2-6) UNRELEASED; urgency=low
 
   * Bump Standards-Version to 3.9.2 (no change needed)
   * Fix libreoffice build path (Closes: Bug#652771).
+  * Depend on libreoffice, not openoffice.org, and fix description
+    (Closes: Bug#657069).
 
- -- Samuel Thibault <sthibault@debian.org>  Tue, 20 Dec 2011 19:45:36 +0100
+ -- Samuel Thibault <sthibault@debian.org>  Tue, 24 Jan 2012 00:21:25 +0100
 
 jodconverter (2.2.2-5) unstable; urgency=low
 

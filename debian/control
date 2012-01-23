@@ -11,9 +11,9 @@ Vcs-Git: git://git.debian.org/git/collab-maint/jodconverter/jodconverter.git
 
 Package: libjodconverter-java
 Architecture: all
-Depends: ${misc:Depends}, default-jre-headless | java2-runtime-headless, libcommons-cli-java, libcommons-io-java, ure (>= 1.7.0), libslf4j-java, libreoffice-java-common (>= 1:3.3.2~rc2), libxstream-java, openoffice.org
+Depends: ${misc:Depends}, default-jre-headless | java2-runtime-headless, libcommons-cli-java, libcommons-io-java, ure (>= 1.7.0), libslf4j-java, libreoffice-java-common (>= 1:3.3.2~rc2), libxstream-java, libreoffice
 Description: Office formats converter - Library
- JODConverter, the Java OpenDocument Converter, leverages OpenOffice.org to
+ JODConverter, the Java OpenDocument Converter, leverages LibreOffice to
  provide import/export filters for various office formats including OpenDocument
  and Microsoft Office.
  .
@@ -24,7 +24,7 @@ Section: doc
 Architecture: all
 Depends: ${misc:Depends}
 Description: Office formats converter - Library documentation
- JODConverter, the Java OpenDocument Converter, leverages OpenOffice.org to
+ JODConverter, the Java OpenDocument Converter, leverages LibreOffice to
  provide import/export filters for various office formats including OpenDocument
  and Microsoft Office.
  .
