@@ -5,6 +5,7 @@ jodconverter (2.2.2-6) unstable; urgency=low
   * Depend on libreoffice, not openoffice.org, and fix description
     (Closes: Bug#657069).
   * Add build-{indep,arch} rules.
+  * Drop jre dependency.
 
  -- Samuel Thibault <sthibault@debian.org>  Tue, 24 Jan 2012 00:21:25 +0100
 
