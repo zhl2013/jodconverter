@@ -1,4 +1,4 @@
-jodconverter (2.2.2-6) UNRELEASED; urgency=low
+jodconverter (2.2.2-6) unstable; urgency=low
 
   * Bump Standards-Version to 3.9.2 (no change needed)
   * Fix libreoffice build path (Closes: Bug#652771).
