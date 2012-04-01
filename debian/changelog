@@ -4,7 +4,8 @@ jodconverter (2.2.2-7) unstable; urgency=low
   * control: Bump Standards-Version to 3.9.3 (no changes).
 
   [ Rene Engelhard ]
-  * Remove basis-link usage in JAVAFLAGS, as it's gone in LO 3.5.
+  * Remove basis-link usage in JAVAFLAGS, as it's gone in LO 3.5
+    (Closes: #661182).
 
  -- Samuel Thibault <sthibault@debian.org>  Sat, 25 Feb 2012 17:49:06 +0100
 
