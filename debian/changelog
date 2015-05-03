@@ -1,7 +1,8 @@
 jodconverter (2.2.2-8) UNRELEASED; urgency=low
 
   * watch: Add github URL.
-  * rules: Pass -notimestamp to javadoc to make build more reproducible.
+  * rules: Pass -notimestamp to javadoc to make build more reproducible
+    (Closes: #783882).
   * Bump Standards-Version to 3.9.6 (no changes).
 
  -- Samuel Thibault <sthibault@debian.org>  Sat, 13 Jul 2013 18:50:30 +0200
