@@ -20,7 +20,7 @@ build-stamp:
 	( \
 	cd $(SRCDIR) && \
 	$(JAVAC) $(JAVAFLAGS) `find . -name \*.java` && \
-	$(JAVADOC) -d api com.artofsolving.jodconverter && \
+	$(JAVADOC) -notimestamp -d api com.artofsolving.jodconverter && \
 	$(JAR) c `find . -name \*.class -o -name \*.xml -o -name \*.MF` > $(JARFILE) ; \
 	)
 
