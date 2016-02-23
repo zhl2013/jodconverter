@@ -1,4 +1,4 @@
-jodconverter (2.2.2-8) UNRELEASED; urgency=low
+jodconverter (2.2.2-8) unstable; urgency=low
 
   * watch: Add github URL.
   * rules: Pass -notimestamp to javadoc to make build more reproducible
@@ -7,7 +7,7 @@ jodconverter (2.2.2-8) UNRELEASED; urgency=low
   * compat: Bump to 9.
   * rules: Clear.
 
- -- Samuel Thibault <sthibault@debian.org>  Sat, 13 Jul 2013 18:50:30 +0200
+ -- Samuel Thibault <sthibault@debian.org>  Tue, 23 Feb 2016 01:28:57 +0100
 
 jodconverter (2.2.2-7) unstable; urgency=low
 
