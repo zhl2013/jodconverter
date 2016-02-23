@@ -5,7 +5,7 @@ jodconverter (2.2.2-8) unstable; urgency=low
     (Closes: #783882).
   * Bump Standards-Version to 3.9.7 (no changes).
   * compat: Bump to 9.
-  * rules: Clear.
+  * rules: Clear. Keep compatibility with java5.
 
  -- Samuel Thibault <sthibault@debian.org>  Tue, 23 Feb 2016 01:28:57 +0100
 
