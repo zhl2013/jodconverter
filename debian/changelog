@@ -1,6 +1,7 @@
 jodconverter (2.2.2-9) UNRELEASED; urgency=medium
 
   * control: Bump Standards-Version to 3.9.8 (no change)
+  * Use canonical anonscm vcs URL.
 
  -- Samuel Thibault <sthibault@debian.org>  Sun, 22 May 2016 20:44:39 +0200
 
