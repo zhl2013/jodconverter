@@ -17,7 +17,7 @@ JARFILE=jodconverter-2.2.2.jar
 override_dh_auto_build:
 	cd $(SRCDIR) && \
 	$(JAVAC) $(JAVAFLAGS) `find . -name \*.java` && \
-	$(JAVADOC) -notimestamp -d api com.artofsolving.jodconverter && \
+	$(JAVADOC) $(JAVAFLAGS) -notimestamp -d api `find . -name \*.java` && \
 	$(JAR) c `find . -name \*.class -o -name \*.xml -o -name \*.MF` > $(JARFILE) ; \
 
 override_dh_auto_clean:

@@ -4,6 +4,7 @@ jodconverter (2.2.2-9) UNRELEASED; urgency=medium
   * control: Migrate priority to optional.
   * control: Bump Standards-Version to 4.1.1.
   * rules: Bump java compatibility to 1.6 (Closes: #893211)
+  * rules: Fix javadoc call.
 
  -- Samuel Thibault <sthibault@debian.org>  Sun, 22 May 2016 20:44:39 +0200
 
