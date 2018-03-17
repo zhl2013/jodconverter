@@ -1,4 +1,4 @@
-jodconverter (2.2.2-9) UNRELEASED; urgency=medium
+jodconverter (2.2.2-9) unstable; urgency=medium
 
   * Use canonical anonscm vcs URL.
   * control: Migrate priority to optional.
@@ -6,7 +6,7 @@ jodconverter (2.2.2-9) UNRELEASED; urgency=medium
   * rules: Bump java compatibility to 1.6 (Closes: #893211)
   * rules: Fix javadoc call.
 
- -- Samuel Thibault <sthibault@debian.org>  Sun, 22 May 2016 20:44:39 +0200
+ -- Samuel Thibault <sthibault@debian.org>  Sat, 17 Mar 2018 12:32:34 +0100
 
 jodconverter (2.2.2-8) unstable; urgency=low
 
