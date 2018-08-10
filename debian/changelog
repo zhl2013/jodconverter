@@ -1,6 +1,6 @@
 jodconverter (2.2.2-10) UNRELEASED; urgency=medium
 
-  * Bump Standards-Version to 4.1.5 (no changes).
+  * Bump Standards-Version to 4.2.0 (no changes).
 
  -- Samuel Thibault <sthibault@debian.org>  Sat, 28 Apr 2018 17:00:45 +0200
 
