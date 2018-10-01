@@ -1,6 +1,10 @@
 jodconverter (2.2.2-10) UNRELEASED; urgency=medium
 
+  [ Samuel Thibault ]
   * Bump Standards-Version to 4.2.0 (no changes).
+
+  [ Ondřej Nový ]
+  * d/control: Set Vcs-* to salsa.debian.org
 
  -- Samuel Thibault <sthibault@debian.org>  Sat, 28 Apr 2018 17:00:45 +0200
 

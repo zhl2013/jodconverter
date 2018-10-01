@@ -6,8 +6,8 @@ Build-Depends-Indep: default-jdk, libcommons-io-java, ure (>= 1.7.0), libslf4j-j
 Standards-Version: 4.2.0
 Section: java
 Homepage: http://www.artofsolving.com/opensource/jodconverter
-Vcs-Browser: https://anonscm.debian.org/git/collab-maint/jodconverter/jodconverter.git
-Vcs-Git: https://anonscm.debian.org/git/collab-maint/jodconverter/jodconverter.git
+Vcs-Browser: https://salsa.debian.org/debian/jodconverter
+Vcs-Git: https://salsa.debian.org/debian/jodconverter.git
 
 Package: libjodconverter-java
 Architecture: all
