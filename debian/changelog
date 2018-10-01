@@ -5,6 +5,7 @@ jodconverter (2.2.2-10) UNRELEASED; urgency=medium
 
   [ Ondřej Nový ]
   * d/control: Set Vcs-* to salsa.debian.org
+  * d/watch: Use https protocol
 
  -- Samuel Thibault <sthibault@debian.org>  Sat, 28 Apr 2018 17:00:45 +0200
 
