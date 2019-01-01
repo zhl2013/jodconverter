@@ -1,4 +1,4 @@
-jodconverter (2.2.2-10) UNRELEASED; urgency=medium
+jodconverter (2.2.2-10) unstable; urgency=medium
 
   [ Samuel Thibault ]
   * Bump Standards-Version to 4.2.0 (no changes).
@@ -8,7 +8,7 @@ jodconverter (2.2.2-10) UNRELEASED; urgency=medium
   * d/control: Set Vcs-* to salsa.debian.org
   * d/watch: Use https protocol
 
- -- Samuel Thibault <sthibault@debian.org>  Sat, 28 Apr 2018 17:00:45 +0200
+ -- Samuel Thibault <sthibault@debian.org>  Tue, 01 Jan 2019 17:18:11 +0100
 
 jodconverter (2.2.2-9) unstable; urgency=medium
 
