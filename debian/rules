@@ -19,6 +19,8 @@ override_dh_auto_build:
 	$(JAVAC) $(JAVAFLAGS) `find . -name \*.java` && \
 	$(JAVADOC) $(JAVAFLAGS) -notimestamp -d api `find . -name \*.java` && \
 	$(JAR) c `find . -name \*.class -o -name \*.xml -o -name \*.MF` > $(JARFILE) ; \
+	# Does not work anyway
+	rm -fr $(SRCDIR)/api/jquery
 
 override_dh_auto_clean:
 	rm -f `find $(SRCDIR) -name \*.class`
