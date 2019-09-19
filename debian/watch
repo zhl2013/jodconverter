@@ -1,3 +1,3 @@
 version=3
-https://sf.net/jodconverter/jodconverter-([\d.]+)\.zip
-https://github.com/mirkonasato/jodconverter/releases .*/.*(?:txz|tbz2|tgz|tar\.(?:xz|bz2|gz)|zip)
+https://sf.net/jodconverter/jodconverter-@ANY_VERSION@@ARCHIVE_EXT@
+https://github.com/mirkonasato/jodconverter/releases .*/.*@ANY_VERSION@@ARCHIVE_EXT@
