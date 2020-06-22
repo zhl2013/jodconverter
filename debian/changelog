@@ -1,6 +1,7 @@
 jodconverter (2.2.2-12) UNRELEASED; urgency=low
 
   * Bump debhelper from deprecated 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
 
  -- Debian Janitor <janitor@jelmer.uk>  Mon, 22 Jun 2020 01:30:03 -0000
 
