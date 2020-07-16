@@ -1,11 +1,15 @@
 jodconverter (2.2.2-12) UNRELEASED; urgency=low
 
+  [ Debian Janitor ]
   * Bump debhelper from deprecated 9 to 12.
   * Set debhelper-compat version in Build-Depends.
   * Set upstream metadata fields: Archive, Name, Repository, Repository-Browse.
   * Update standards version to 4.5.0, no changes needed.
 
- -- Debian Janitor <janitor@jelmer.uk>  Mon, 22 Jun 2020 01:30:03 -0000
+  [ Rene Engelhard ]
+  * explicitely (Build-)Depend on libjuh-java, libridl-java, libunoil-java 
+
+ -- Rene Engelhard <rene@debian.org>  Mon, 22 Jun 2020 01:30:03 -0000
 
 jodconverter (2.2.2-11) unstable; urgency=medium
 
