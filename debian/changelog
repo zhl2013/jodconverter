@@ -1,4 +1,4 @@
-jodconverter (2.2.2-12) UNRELEASED; urgency=low
+jodconverter (2.2.2-12) unstable; urgency=low
 
   [ Debian Janitor ]
   * Bump debhelper from deprecated 9 to 12.
@@ -12,7 +12,7 @@ jodconverter (2.2.2-12) UNRELEASED; urgency=low
   [ Samuel Thibault ]
   * watch: Switch to tracking sbraconnier's repository.
 
- -- Rene Engelhard <rene@debian.org>  Mon, 22 Jun 2020 01:30:03 -0000
+ -- Samuel Thibault <sthibault@debian.org>  Sun, 02 Aug 2020 18:18:13 +0200
 
 jodconverter (2.2.2-11) unstable; urgency=medium
 
