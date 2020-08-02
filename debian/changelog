@@ -4,6 +4,7 @@ jodconverter (2.2.2-12) UNRELEASED; urgency=low
   * Set debhelper-compat version in Build-Depends.
   * Set upstream metadata fields: Archive, Name, Repository, Repository-Browse.
   * Update standards version to 4.5.0, no changes needed.
+  * watch: Switch to tracking sbraconnier's repository.
 
  -- Debian Janitor <janitor@jelmer.uk>  Mon, 22 Jun 2020 01:30:03 -0000
 
