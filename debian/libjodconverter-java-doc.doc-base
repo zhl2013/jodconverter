@@ -7,5 +7,5 @@ Abstract: JODConverter, the Java OpenDocument Converter, leverages
 Section: Programming/Java
 
 Format: HTML
-Index: /usr/share/doc/libjodconverter-java-doc/api/index.html
-Files: /usr/share/doc/libjodconverter-java-doc/api/*.html
+Index: /usr/share/doc/libjodconverter-java/api/index.html
+Files: /usr/share/doc/libjodconverter-java/api/*.html
