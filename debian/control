@@ -3,6 +3,7 @@ Priority: optional
 Maintainer: Samuel Thibault <sthibault@debian.org>
 Build-Depends: debhelper-compat (= 12)
 Build-Depends-Indep: default-jdk, libcommons-io-java, ure (>= 1.7.0), libslf4j-java, libjuh-java, libridl-java, libunoil-java, libxstream-java
+Rules-Requires-Root: no
 Standards-Version: 4.5.0
 Section: java
 Homepage: http://www.artofsolving.com/opensource/jodconverter
