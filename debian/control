@@ -23,7 +23,7 @@ Description: Office formats converter - Library
 Package: libjodconverter-java-doc
 Section: doc
 Architecture: all
-Multi-arch: foreign
+Multi-Arch: foreign
 Depends: ${misc:Depends}
 Description: Office formats converter - Library documentation
  JODConverter, the Java OpenDocument Converter, leverages LibreOffice to
