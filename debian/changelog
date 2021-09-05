@@ -6,6 +6,7 @@ jodconverter (2.2.2-14) UNRELEASED; urgency=medium
   [ Debian Janitor ]
   * Trim trailing whitespace.
   * Update watch file format version to 4.
+  * Bump debhelper from old 12 to 13.
 
  -- Samuel Thibault <sthibault@debian.org>  Mon, 05 Apr 2021 20:14:43 +0200
 
