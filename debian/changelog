@@ -1,6 +1,13 @@
 jodconverter (2.2.2-14) UNRELEASED; urgency=medium
 
+  [ Samuel Thibault ]
   * control: Set Rules-Requires-Root to no.
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Update watch file format version to 4.
+  * Bump debhelper from old 12 to 13.
+  * Update standards version to 4.5.1, no changes needed.
 
  -- Samuel Thibault <sthibault@debian.org>  Mon, 05 Apr 2021 20:14:43 +0200
 
@@ -19,7 +26,7 @@ jodconverter (2.2.2-12) unstable; urgency=low
   * Update standards version to 4.5.0, no changes needed.
 
   [ Rene Engelhard ]
-  * Explicitly (Build-)Depend on libjuh-java, libridl-java, libunoil-java 
+  * Explicitly (Build-)Depend on libjuh-java, libridl-java, libunoil-java
 
   [ Samuel Thibault ]
   * watch: Switch to tracking sbraconnier's repository.
