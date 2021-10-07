@@ -9,6 +9,10 @@ jodconverter (2.2.2-14) UNRELEASED; urgency=medium
   * Bump debhelper from old 12 to 13.
   * Update standards version to 4.5.1, no changes needed.
 
+  [ Markus Koschany ]
+  * patches/libxstream-java.patch: whitelists all classes of
+    com.artofsolving.jodconverter (Closes: Bug#995892).
+
  -- Samuel Thibault <sthibault@debian.org>  Mon, 05 Apr 2021 20:14:43 +0200
 
 jodconverter (2.2.2-13) unstable; urgency=medium

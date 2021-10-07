@@ -1,0 +1,20 @@
+From: Markus Koschany <apo@debian.org>
+Date: Tue, 28 Sep 2021 21:21:14 +0200
+Subject: libxstream-java
+
+---
+ .../java/com/artofsolving/jodconverter/XmlDocumentFormatRegistry.java    | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/src/main/java/com/artofsolving/jodconverter/XmlDocumentFormatRegistry.java b/src/main/java/com/artofsolving/jodconverter/XmlDocumentFormatRegistry.java
+index 90901a6..918710f 100644
+--- a/src/main/java/com/artofsolving/jodconverter/XmlDocumentFormatRegistry.java
++++ b/src/main/java/com/artofsolving/jodconverter/XmlDocumentFormatRegistry.java
+@@ -70,6 +70,7 @@ public class XmlDocumentFormatRegistry extends BasicDocumentFormatRegistry imple
+ 
+ 	private static XStream createXStream() {
+ 		XStream xstream = new XStream(new DomDriver());
++		xstream.allowTypesByWildcard(new String[] {XmlDocumentFormatRegistry.class.getPackage().getName()+".*" });
+ 		xstream.setMode(XStream.NO_REFERENCES);
+ 		xstream.alias("document-format", DocumentFormat.class);
+ 		xstream.aliasField("mime-type", DocumentFormat.class, "mimeType");
